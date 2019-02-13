@@ -73,6 +73,7 @@ h1 {
 
 .wrapper {
   position: relative;
+  background-color: red;
 }
 
 .opener {
@@ -136,11 +137,22 @@ h1 {
   color: #1E1E1E;
 }
 
-.myfooter {
-  display: inline;
-  background-color: purple;
+footer {
+  clear: both;
+  background-color: #803A32;
   margin: 0 auto;
-  padding-top: 10em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: #B86F67;
+}
+
+footer h4 p {
+  opacity: 0.6
+}
+
+.legal{
+  clear: both;
+text-align: center;
 }
 
 .footercol1 {
