@@ -66,14 +66,14 @@ body {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2em;
   color: #803A32;
+  margin: 0 auto;
 }
 
 .wrapper {
   position: absolute;
 }
-
 
 .opener {
   background-color: #EEEAE1;
@@ -86,9 +86,10 @@ h1 {
 }
 
 .opener h1 + p {
-  font-size: 1.188em;
-  color: #803A32;
+  font-size: 1.1em;
+  color: #1E1E1E;
   line-height: 1.5em;
+  margin-top: .5em;
  }
 
 .slice {
@@ -130,39 +131,4 @@ h1 {
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-
-  .opener {
-    display: inline-block;
-    background-color: #EEEAE1;
-    margin: 0 auto;
-    padding-top: 2em;
-    padding-bottom: 5.188em;
-    padding-left: 15%;
-    padding-right: 15%;
-    text-align: center;
-  }
-
-  .slice {
-    padding-left: 15%;
-    padding-right: 15%;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  .slice img {
-    float: left;
-   width: 40%;
-  }
-
-  .slice h2 {
-    background-color: pink;
-    float: right;
-    width: 50%;
-  }
-
-  .slice p {
-    background-color: green;
-    float: right;
-    width: 50%;
-  }
 }
