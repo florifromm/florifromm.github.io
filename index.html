@@ -1,30 +1,59 @@
  <!DOCTYPE html>
  <html lang="de">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <head>
+<script>
+  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+
      <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
      <title>Winfried Höhn</title>
      <meta name="description" content="Arztpraxis">
     <link rel="stylesheet" href="styles.css">
 <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700" rel="stylesheet">
+
+<!-- icons for the w3 mobile responsive navigation -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
      <!--[if lt IE 9]>
        <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
      <![endif]-->
+
+
  </head>
 
  <body>
 
+   <!-- w3 mobile responsive navigation -->
+   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 
+   <div class="topnav" id="myTopnav">
+     <a href="#home" class="active">Home</a>
+     <a href="#news">News</a>
+     <a href="#contact">Contact</a>
+     <a href="#about">About</a>
+     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+       <i class="fa fa-bars"></i>
+     </a>
+   </div>
+
+<!-- content -->
 <div class="wrapper">
   <div class="opener">
-    <h1>Wilkomen in der Praxis im City Center Schönefeld</h1>
+    <h1>Willkomen in der Praxis im City Center Schönefeld</h1>
     <p>Eine wunderbare Heiterkeit hat meine ganze Seele eingenommen, gleich den süßen Frühlingsmorgen, die ich mit ganzem Herzen genieße. Ich bin allein und freue mich meines Lebens in dieser Gegend, die für solche Seelen.</p>
   </div>
 
-
-  <!-- Content-Slice -->
-
+<!-- Content-Slice -->
 <div class="slice">
   <img src="img/arzt_01.jpg" alt="Arzt">
 <h2>Winfried Höhn</h2>
@@ -33,6 +62,10 @@
 </div>
 
 </div>
+
+
+
+
  </body>
 
  </html>
