@@ -1,7 +1,7 @@
 /* w3 mobile responsive navigation */
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #EEEAE1;
   overflow: hidden;
 }
 
@@ -9,7 +9,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #803A32;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -18,13 +18,13 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #803A32;
   color: black;
 }
 
 /* Add an active class to highlight the current page */
 .active {
-  background-color: #4CAF50;
+  background-color: #EEEAE1;
   color: white;
 }
 
@@ -59,9 +59,6 @@
 
 /* end w3 mobile responsive navigation */
 
-.wrapper {
-  position: absolute;
-}
 body {
   font-size: 16px;
   font-family: 'Alegreya Sans', sans-serif;
@@ -72,6 +69,11 @@ h1 {
   font-size: 2.5em;
   color: #803A32;
 }
+
+.wrapper {
+  position: absolute;
+}
+
 
 .opener {
   background-color: #EEEAE1;
