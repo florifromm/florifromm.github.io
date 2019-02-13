@@ -72,7 +72,7 @@ h1 {
 }
 
 .wrapper {
-  position: absolute;
+  position: relative;
 }
 
 .opener {
@@ -96,9 +96,16 @@ h1 {
   padding-top: 3em;
   padding-left: 5%;
   padding-right: 5%;
+  padding-bottom: 2em;
   margin: 0 auto;
-  margin-top: -5em;
   text-align: center;
+}
+.purple {
+  background-color: #C3CBDE;
+}
+
+.beige {
+  background-color: #EEEAE1;
 }
 
 .slice img {
@@ -111,6 +118,7 @@ h1 {
   color: #1E1E1E;
   width: 90%;
   margin: 0 auto;
+  margin-bottom: 1em;
 }
 
 .slice h2 {
@@ -123,12 +131,32 @@ h1 {
 
 .slice a {
   text-decoration: none;
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 0.4em;
-  display: block;
+  font-weight: 700;
+  border-bottom: solid 2px #F0574B;
+  color: #1E1E1E;
 }
 
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
+.myfooter {
+  display: inline;
+  background-color: purple;
+  margin: 0 auto;
+  padding-top: 10em;
+}
+
+.footercol1 {
+  width: 45%;
+  float: left;
+  padding-left: .6em;
+}
+
+.footercol2 {
+  width: 45%;
+  float: right;
+  padding-left: .6em;
+}
+
+.footercol3 {
+  background-color: yellow;
+  width: 45%;
+  float: right;
 }
