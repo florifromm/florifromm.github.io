@@ -71,9 +71,12 @@ h1 {
   margin: 0 auto;
 }
 
+h4 {
+  margin: 0;
+}
+
 .wrapper {
   position: relative;
-  background-color: red;
 }
 
 .opener {
@@ -94,7 +97,8 @@ h1 {
  }
 
 .slice {
-  padding-top: 3em;
+  position: relative;
+  padding-top: 2em;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 2em;
@@ -125,7 +129,7 @@ h1 {
 .slice h2 {
   color: #803A32;
   margin: 0 auto;
-  margin-top: 1em;
+  margin-top: .5em;
   margin-bottom: 0.5em;
   width: 90%;
 }
@@ -137,17 +141,50 @@ h1 {
   color: #1E1E1E;
 }
 
+table {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+td {
+  text-align: left;
+  padding-left: .8em;
+}
+
+
 footer {
+  text-align: center;
   clear: both;
   background-color: #803A32;
   margin: 0 auto;
-  padding-top: 1em;
   padding-bottom: 1em;
+  padding-top: 1em;
   color: #B86F67;
 }
 
 footer h4 p {
   opacity: 0.6
+}
+
+footer h4 {
+  margin-bottom: .3em;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer ul li {
+  margin: 0;
+  padding: 0;
+  color: #B86F67;
+  list-style: none;
 }
 
 .legal{
