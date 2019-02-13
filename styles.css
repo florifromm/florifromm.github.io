@@ -1,0 +1,107 @@
+
+
+.wrapper {
+  position: absolute;
+}
+body {
+  font-size: 16px;
+  font-family: 'Alegreya Sans', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #803A32;
+}
+
+.opener {
+  background-color: #EEEAE1;
+  margin: 0 auto;
+  padding-top: 2em;
+  padding-bottom: 5.188em;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+.opener h1 + p {
+  font-size: 1.188em;
+  color: #803A32;
+  line-height: 1.5em;
+ }
+
+.slice {
+  padding-top: 3em;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0 auto;
+  margin-top: -5em;
+  text-align: center;
+}
+
+.slice img {
+  display: block;
+  margin: 0 auto;
+ width: 90%;
+}
+
+.slice p {
+  color: #1E1E1E;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.slice h2 {
+  color: #803A32;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  width: 90%;
+}
+
+.slice a {
+  text-decoration: none;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 0.4em;
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+
+  .opener {
+    display: inline-block;
+    background-color: #EEEAE1;
+    margin: 0 auto;
+    padding-top: 2em;
+    padding-bottom: 5.188em;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+  }
+
+  .slice {
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .slice img {
+    float: left;
+   width: 40%;
+  }
+
+  .slice h2 {
+    background-color: pink;
+    float: right;
+    width: 50%;
+  }
+
+  .slice p {
+    background-color: green;
+    float: right;
+    width: 50%;
+  }
+}
